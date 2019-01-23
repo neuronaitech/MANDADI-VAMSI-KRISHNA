@@ -1,0 +1,58 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Hello", "Is anyone there?", "Good morning", "Good Evening", "Good Afternoon", "Morning", "Evening", "Afternoon", "h", "e", "l", "o", "w"],
+         "responses": ["hello, Welcome to andhra pradesh government help center.", "hi, welcome to government of andhra pradesh help center.", "hi there, welcome to government of andhra pradesh help center.", "welcome to government help center.", "andhra pradesh Government help center , Welcome to You"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["what are working hours?", "What are your hours?", "When are you open?", "Open Times" ],
+         "responses": ["opens 10am to 5pm  from monday to saturday", "it will open from 10am to 5pm.", "from monday to saturday on 10am to 5pm it will open."]
+        },
+        {"tag": "water",
+         "patterns": ["water problem?", "water", "i am not getting water in my area", "some water issues", "water leakage"],
+         "responses": ["we ll finish it as early as possible.", "we are working on it.", "we will solve it as early as possible.", "it will take 2 to 3 days to solve.", "we registered your complaint, with the respective center."]
+        },
+        {"tag": "power",
+         "patterns": ["power problems", "power", "i am having power issue", "we have power problems ", "i have power issues in my locality"],
+         "responses": ["We are working on it.", "It will take 2 to 3 hours to solve.", "We registered your compliant with respective help center.", "Give us some time, to solve it."]
+        },
+        {"tag": "sewage",
+         "patterns": ["sewage", "wastewater", "drinage", "bad smell"],
+         "responses": ["we are working present at on it.", "we had registered forwarded your complaint", "We will take action immediately."]
+        },
+        {"tag": "roads",
+         "patterns": ["roads problem", "road problem", "roads", "road"],
+         "responses": ["We will know about it completely and we will solve this."],
+         "context_set": "road"
+        },
+	{"tag": "meesava",
+         "patterns": ["meeseva centers near me", "meeseva telephone numbers", "meeseva numbers"],
+         "responses": ["through message we will update."],
+         "context_set": "road"
+        },
+	{"tag": "Pensention",
+         "patterns": ["i am not getting my pension.", "pension problem."],
+         "responses": ["i will sending it to your pension department."],
+         "context_set": "road"
+        },
+	{"tag": "power bill",
+         "patterns": ["power bill", "powerbill", "problem while paying power bill"],
+         "responses": ["for power bill problems call 1107"],
+         "context_set": "road"
+        },
+
+        {"tag": "for other quries",
+         "patterns": ["other"],
+         "responses": ["to other problems call 1104."],
+         "context_filter": "other"
+        },
+	{"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "goodbye", "bye", "ok", "Thanks"],
+         "responses": ["thanks in your service.", "GOVERNMENT OF ANDHRA PRADESH always help you.", "Bye! Come back again soon. GOVERNMENT OF ANDHRA PRADESH"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help! GOVERNMENT OF ANDHRAPRADESH", "Any time! GOVERNMENT OF ANDHRAPRADESH", "Visit Again. GOVERNMENT OF ANDHRAPRADESH"]
+        }
+   ]
+}
